@@ -1,0 +1,285 @@
+Netlist
+
+Exported from pcb10_5.sch at 10/8/20 3:58 PM
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Net       Part             Pad      Pin        Sheet
+
+3.3VLOGIC LS1              2        1          1
+          LS10             2        1          1
+          LS2              2        1          1
+          LS3              2        1          1
+          LS4              2        1          1
+          LS5              2        1          1
+          LS6              2        1          1
+          LS7              2        1          1
+          LS8              2        1          1
+          LS9              2        1          1
+          MP6500_3         SLEEP    SLEEP      1
+          MP6500_4         SLEEP    SLEEP      1
+          TEENSY4.2        3V3_LO   3V3_LO     1
+
+12V       C2               1        1          1
+          C3               1        1          1
+          MP6500_3         VMOT     VMOT       1
+          MP6500_4         VMOT     VMOT       1
+          POT1             2        1          1
+          POT2             2        1          1
+          POT3             2        1          1
+          POT4             2        1          1
+          POT5             2        1          1
+          POT6             2        1          1
+          POWER            2        1          1
+
+24V       POWER            1        1          1
+          TBVCC1           1        1          1
+          TBVCC2           1        1          1
+          TBVCC3           1        1          1
+          TBVCC4           1        1          1
+
+GND       C2               2        2          1
+          C3               2        2          1
+          GYRO             4        1          1
+          LOGIC_CONVERTER1 J1.6     GND.1      1
+          LOGIC_CONVERTER1 J2.6     GND.2      1
+          LS1              3        1          1
+          LS10             3        1          1
+          LS2              3        1          1
+          LS3              3        1          1
+          LS4              3        1          1
+          LS5              3        1          1
+          LS6              3        1          1
+          LS7              3        1          1
+          LS8              3        1          1
+          LS9              3        1          1
+          MP6500_3         GND      GND        1
+          MP6500_3         LOGIC_GND GNDL       1
+          MP6500_4         GND      GND        1
+          MP6500_4         LOGIC_GND GNDL       1
+          POT1             3        1          1
+          POT2             3        1          1
+          POT3             3        1          1
+          POT4             3        1          1
+          POT5             3        1          1
+          POT6             3        1          1
+          POWER            4        1          1
+          TBVCC1           2        1          1
+          TBVCC2           2        1          1
+          TBVCC3           2        1          1
+          TBVCC4           2        1          1
+
+GYRO1     GYRO             1        1          1
+          TEENSY4.2        26       26         1
+
+GYRO2     GYRO             2        1          1
+          TEENSY4.2        27       27         1
+
+LC1CH1    LOGIC_CONVERTER1 J2.1     HV1        1
+          TBL1             1        1          1
+
+LC1CH2    LOGIC_CONVERTER1 J2.2     HV2        1
+          TBL1             3        1          1
+
+LC1CH3    LOGIC_CONVERTER1 J2.3     HV3        1
+          TBL2             1        1          1
+
+LC1CH4    LOGIC_CONVERTER1 J2.4     HV4        1
+          TBL2             3        1          1
+
+LC1CH5    LOGIC_CONVERTER1 J2.7     HV5        1
+          TBL3             1        1          1
+
+LC1CH6    LOGIC_CONVERTER1 J2.8     HV6        1
+          TBL3             3        1          1
+
+LC1CH7    LOGIC_CONVERTER1 J2.9     HV7        1
+          TBL4             1        1          1
+
+LC1CH8    LOGIC_CONVERTER1 J2.10    HV8        1
+          TBL4             3        1          1
+
+LC2CH1    LOGIC_CONVERTER1 J1.1     LV1        1
+          TEENSY4.2        GND      GND        1
+
+LC2CH2    LOGIC_CONVERTER1 J1.2     LV2        1
+          TEENSY4.2        0/RX     0/RX       1
+
+LC2CH3    LOGIC_CONVERTER1 J1.3     LV3        1
+          TEENSY4.2        1/TX     1/TX       1
+
+LC2CH4    LOGIC_CONVERTER1 J1.4     LV4        1
+          TEENSY4.2        2        2          1
+
+LC2CH5    LOGIC_CONVERTER1 J1.7     LV5        1
+          TEENSY4.2        3/CANTX  3/CANTX    1
+
+LC2CH6    LOGIC_CONVERTER1 J1.8     LV6        1
+          TEENSY4.2        4/CANRX  4/CANRX    1
+
+LC2CH7    LOGIC_CONVERTER1 J1.9     LV7        1
+          TEENSY4.2        28       28         1
+
+LC2CH8    LOGIC_CONVERTER1 J1.10    LV8        1
+          TEENSY4.2        29       29         1
+
+LC3.3V    LOGIC_CONVERTER1 J1.5     LV         1
+          TEENSY4.2        3V3      3V3        1
+
+LC5V      GYRO             3        1          1
+          LOGIC_CONVERTER1 J2.5     HV         1
+          POWER            3        1          1
+          TBL1             2        1          1
+          TBL1             4        1          1
+          TBL2             2        1          1
+          TBL2             4        1          1
+          TBL3             2        1          1
+          TBL3             4        1          1
+          TBL4             2        1          1
+          TBL4             4        1          1
+          TEENSY4.2        VIN      VIN        1
+
+LS1-1OUT  LS1              1        1          1
+          TEENSY4.2        17/A3    17/A3      1
+
+LS2-1OUT  LS2              1        1          1
+          TEENSY4.2        16/A2    16/A2      1
+
+LS3-1OUT  LS3              1        1          1
+          TEENSY4.2        15/A1    15/A1      1
+
+LS4-1OUT  LS4              1        1          1
+          TEENSY4.2        14/A0    14/A0      1
+
+LS5-1OUT  LS5              1        1          1
+          TEENSY4.2        A22/DAC1 A22/DAC1   1
+
+LS6-1OUT  LS6              1        1          1
+          TEENSY4.2        21/DAC0  A21/DAC0   1
+
+LS7-1OUT  LS7              1        1          1
+          TEENSY4.2        39/A20   39/A20     1
+
+LS8-1OUT  LS8              1        1          1
+          TEENSY4.2        38/A19   38/A19     1
+
+LS9-1OUT  LS9              1        1          1
+          TEENSY4.2        24       24         1
+
+LS10-1OUT LS10             1        1          1
+          TEENSY4.2        25       25         1
+
+MP1-I1    MP6500_3         I1       I1         1
+          TEENSY4.2        5        5          1
+
+MP1-I2    MP6500_3         I2       I2         1
+          TEENSY4.2        6        6          1
+
+MP1A1     M51              1        1          1
+          MP6500_3         A1       A1         1
+
+MP1A2     M51              2        1          1
+          MP6500_3         A2       A2         1
+
+MP1B1     M51              3        1          1
+          MP6500_3         B1       B1         1
+
+MP1B2     M51              4        1          1
+          MP6500_3         B2       B2         1
+
+MP1DIR    MP6500_3         DIR      DIR        1
+          TEENSY4.2        8        8          1
+
+MP1STEP   MP6500_3         STEP     STEP       1
+          TEENSY4.2        7        7          1
+
+MP2-I1    MP6500_4         I1       I1         1
+          TEENSY4.2        9/CS     9/CS       1
+
+MP2-I2    MP6500_4         I2       I2         1
+          TEENSY4.2        10/CS    10/CS      1
+
+MP2A1     M61              1        1          1
+          MP6500_4         A1       A1         1
+
+MP2A2     M61              2        1          1
+          MP6500_4         A2       A2         1
+
+MP2B1     M61              3        1          1
+          MP6500_4         B1       B1         1
+
+MP2B2     M61              4        1          1
+          MP6500_4         B2       B2         1
+
+MP2DIR    MP6500_4         DIR      DIR        1
+          TEENSY4.2        12/MISO  12/MISO    1
+
+MP2STEP   MP6500_4         STEP     STEP       1
+          TEENSY4.2        11/MOSI  11/MOSI    1
+
+POT1-1OUT POT1             1        1          1
+          TEENSY4.2        23/A9    23/A9      1
+
+POT2-1OUT POT2             1        1          1
+          TEENSY4.2        22/A8    22/A8      1
+
+POT3-1OUT POT3             1        1          1
+          TEENSY4.2        21/A7    21/A7      1
+
+POT4-1OUT POT4             1        1          1
+          TEENSY4.2        20/A6    20/A6      1
+
+POT5-1OUT POT5             1        1          1
+          TEENSY4.2        19/A5/SCL 19/A5/SCL  1
+
+POT6-1OUT POT6             1        1          1
+          TEENSY4.2        18/A4/SDA 18/A4/SDA  1
+
+TBM1-1OUT M11              1        1          1
+          TBM1             1        1          1
+
+TBM1-2OUT M11              2        1          1
+          TBM1             2        1          1
+
+TBM1-3OUT M11              3        1          1
+          TBM1             3        1          1
+
+TBM1-4OUT M11              4        1          1
+          TBM1             4        1          1
+
+TBM2-1OUT M21              1        1          1
+          TBM2             1        1          1
+
+TBM2-2OUT M21              2        1          1
+          TBM2             2        1          1
+
+TBM2-3OUT M21              3        1          1
+          TBM2             3        1          1
+
+TBM2-4OUT M21              4        1          1
+          TBM2             4        1          1
+
+TBM3-1OUT M31              1        1          1
+          TBM3             1        1          1
+
+TBM3-2OUT M31              2        1          1
+          TBM3             2        1          1
+
+TBM3-3OUT M31              3        1          1
+          TBM3             3        1          1
+
+TBM3-4OUT M31              4        1          1
+          TBM3             4        1          1
+
+TBM4-1OUT M41              1        1          1
+          TBM4             1        1          1
+
+TBM4-2OUT M41              2        1          1
+          TBM4             2        1          1
+
+TBM4-3OUT M41              3        1          1
+          TBM4             3        1          1
+
+TBM4-4OUT M41              4        1          1
+          TBM4             4        1          1
+
